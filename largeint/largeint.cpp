@@ -161,7 +161,7 @@ bool operator==(const LargeInt& li1, const LargeInt& li2) {
 	if(sign1 == sign2) {
 		return (!li1.absLargeThan(li2) && !li2.absLargeThan(li1));
 	} else {
-		return false;
+		return  false;
 	}
 }
 
